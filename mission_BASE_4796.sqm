@@ -8,7 +8,7 @@ class EditorData
 	toggles=521;
 	class ItemIDProvider
 	{
-		nextID=4975;
+		nextID=4927;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8830.9883,279.17462,5309.7275};
-		dir[]={0.73560596,-0.40142441,-0.54583299};
-		up[]={0.32241935,0.91586804,-0.23924127};
-		aside[]={-0.59594309,-1.4215475e-006,-0.80313307};
+		pos[]={8868.209,267.19635,5290.4595};
+		dir[]={0.2745443,-0.31407109,0.90893978};
+		up[]={0.09082976,0.94938761,0.30071181};
+		aside[]={0.95736367,-1.0518124e-006,-0.28917465};
 	};
 };
 binarizationWanted=0;
@@ -54,15 +54,13 @@ addons[]=
 	"A3_Static_F",
 	"CUP_Creatures_Military_TakiInsurgents",
 	"A3_Modules_F",
-	"CUP_WheeledVehicles_Datsun",
-	"A3_Structures_F_Argo_Military_Fortifications",
-	"A3_Structures_F_Items_Electronics"
+	"CUP_WheeledVehicles_Datsun"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=21;
+		items=20;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -194,13 +192,6 @@ class AddonsMetaData
 			className="CUP_WheeledVehicles_Datsun";
 			name="CUP_WheeledVehicles_Datsun";
 		};
-		class Item20
-		{
-			className="A3_Structures_F_Argo";
-			name="Arma 3 Malden - Buildings and Structures";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
 	};
 };
 randomSeed=2635248;
@@ -278,7 +269,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=129;
+		items=125;
 		class Item0
 		{
 			dataType="Marker";
@@ -3264,272 +3255,10 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				textures="greenBlackBeigeDesert";
 			};
 			id=4926;
 			type="CUP_I_Datsun_4seat_TK";
-			atlOffset=0.30621338;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="VehicleCustomization";
-					expression="if (local _this) then {if (isSimpleObject _this) then {_this setVariable ['bis_fnc_initVehicle_customization',_value]} else {([_this] + _value + [true]) call (uinamespace getvariable 'bis_fnc_initVehicle');};};";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"ARRAY"
-								};
-							};
-							class value
-							{
-								items=2;
-								class Item0
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"ARRAY"
-											};
-										};
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"ARRAY"
-											};
-										};
-										class value
-										{
-											items=10;
-											class Item0
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="hideGrille";
-												};
-											};
-											class Item1
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=0;
-												};
-											};
-											class Item2
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="hideRoof";
-												};
-											};
-											class Item3
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=1;
-												};
-											};
-											class Item4
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="hideRollBar";
-												};
-											};
-											class Item5
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=0;
-												};
-											};
-											class Item6
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="hideSpareTire";
-												};
-											};
-											class Item7
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=0;
-												};
-											};
-											class Item8
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="hideRearDoor";
-												};
-											};
-											class Item9
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=0;
-												};
-											};
-										};
-									};
-								};
-							};
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item125
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={8876.252,267.00546,5294.4512};
-				angles[]={6.2639894,0.90349019,0.0016194459};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4927;
-			type="CUP_I_Datsun_PK_TK";
-		};
-		class Item126
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={8856.0615,266.63867,5289.501};
-				angles[]={0,2.7414956,0};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=4966;
-			type="Land_SandbagBarricade_01_hole_F";
-		};
-		class Item127
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={8857.498,266.56677,5290.7119};
-				angles[]={0,2.1163168,0};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=4969;
-			type="Land_SandbagBarricade_01_F";
-			atlOffset=6.1035156e-005;
-		};
-		class Item128
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={8840.1416,266.08563,5300.7319};
-				angles[]={0.011205014,0,6.2431998};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4973;
-			type="Land_Portable_generator_F";
+			atlOffset=0.30752563;
 		};
 	};
 	class Connections
