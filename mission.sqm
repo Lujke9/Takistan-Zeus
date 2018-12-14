@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1545;
+	toggles=521;
 	class ItemIDProvider
 	{
-		nextID=4936;
+		nextID=4973;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=388;
+		nextID=438;
 	};
 	class Camera
 	{
-		pos[]={8829.6084,286.30115,5309.1963};
-		dir[]={0.81045234,-0.52367008,-0.26294926};
-		up[]={0.49814233,0.85190004,-0.16162048};
-		aside[]={-0.3086414,3.4826371e-007,-0.95127386};
+		pos[]={8862.2725,266.92438,5302.4277};
+		dir[]={0.80567372,-0.51440692,0.29414561};
+		up[]={0.48325539,0.8574692,0.17644019};
+		aside[]={0.34299845,-1.6888371e-006,-0.93947369};
 	};
 };
 binarizationWanted=0;
@@ -55,13 +55,18 @@ addons[]=
 	"CUP_Creatures_Military_TakiInsurgents",
 	"A3_Modules_F",
 	"CUP_WheeledVehicles_Datsun",
-	"CUP_Buildings_Config"
+	"CUP_Buildings_Config",
+	"A3_Structures_F_Exp_Walls_Concrete",
+	"A3_Props_F_Exp_Civilian_Garbage",
+	"CUP_Misc3_Config",
+	"boxloader",
+	"A3_Structures_F_Items_Tools"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=21;
+		items=25;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -198,6 +203,30 @@ class AddonsMetaData
 			className="CUP_Buildings_Config";
 			name="CUP_Buildings_Config";
 		};
+		class Item21
+		{
+			className="A3_Structures_F_Exp";
+			name="Arma 3 Apex - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item22
+		{
+			className="A3_Props_F_Exp";
+			name="Arma 3 Apex - Decorative and Mission Objects";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item23
+		{
+			className="CUP_Misc3_Config";
+			name="CUP_Misc3_Config";
+		};
+		class Item24
+		{
+			className="boxloader";
+			name="boxloader";
+		};
 	};
 };
 randomSeed=2635248;
@@ -275,7 +304,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=130;
+		items=138;
 		class Item0
 		{
 			dataType="Marker";
@@ -2997,6 +3026,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8868.1123,264.99863,5294.9253};
+						angles[]={0,6.2519541,0};
 					};
 					side="Independent";
 					flags=7;
@@ -3456,6 +3486,139 @@ class Mission
 				};
 				nAttributes=2;
 			};
+		};
+		class Item130
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8856.5381,266.79764,5290.2432};
+				angles[]={0,5.6050549,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=4953;
+			type="Land_ConcreteWall_01_l_4m_F";
+			atlOffset=0.43310547;
+		};
+		class Item131
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8856.5449,269.3255,5290.2485};
+				angles[]={3.1417994,3.8198199,0.00019950983};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=4954;
+			type="Land_ConcreteWall_01_m_4m_F";
+			atlOffset=3.4115295;
+		};
+		class Item132
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8858.1602,265.77023,5290.5186};
+				angles[]={6.2612505,5.571609,6.2540979};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4957;
+			type="Land_GarbageHeap_04_F";
+			atlOffset=-6.1035156e-005;
+		};
+		class Item133
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8856.4072,266.15851,5289.0811};
+				angles[]={0.0030493166,0.88890231,6.2398114};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4959;
+			type="Garbage_container";
+			atlOffset=3.0517578e-005;
+		};
+		class Item134
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8868.6484,265.73486,5309.4292};
+				angles[]={-0,5.6235456,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4960;
+			type="boxloader_tool_cart";
+			atlOffset=0.15530396;
+		};
+		class Item135
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8869.5918,265.97174,5305.8828};
+				angles[]={-0,4.8838081,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4970;
+			type="Land_WeldingTrolley_01_F";
+			atlOffset=0.19940186;
+		};
+		class Item136
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8868.8057,266.28003,5309.1523};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=4971;
+			type="Land_Meter3m_F";
+			atlOffset=0.96374512;
+		};
+		class Item137
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8859.958,265.50882,5302.0244};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4972;
+			type="Land_PlasticBucket_01_open_F";
+			atlOffset=0.0055847168;
 		};
 	};
 	class Connections
