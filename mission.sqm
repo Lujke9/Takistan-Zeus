@@ -8,7 +8,7 @@ class EditorData
 	toggles=521;
 	class ItemIDProvider
 	{
-		nextID=4927;
+		nextID=4935;
 	};
 	class MarkerIDProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=238;
+		nextID=288;
 	};
 	class Camera
 	{
@@ -54,13 +54,14 @@ addons[]=
 	"A3_Static_F",
 	"CUP_Creatures_Military_TakiInsurgents",
 	"A3_Modules_F",
-	"CUP_WheeledVehicles_Datsun"
+	"CUP_WheeledVehicles_Datsun",
+	"CUP_Buildings_Config"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=20;
+		items=21;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -192,6 +193,11 @@ class AddonsMetaData
 			className="CUP_WheeledVehicles_Datsun";
 			name="CUP_WheeledVehicles_Datsun";
 		};
+		class Item20
+		{
+			className="CUP_Buildings_Config";
+			name="CUP_Buildings_Config";
+		};
 	};
 };
 randomSeed=2635248;
@@ -269,7 +275,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=125;
+		items=129;
 		class Item0
 		{
 			dataType="Marker";
@@ -3258,7 +3264,141 @@ class Mission
 			};
 			id=4926;
 			type="CUP_I_Datsun_4seat_TK";
-			atlOffset=0.30752563;
+			atlOffset=0.30621338;
+		};
+		class Item125
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8854.9209,267.11124,5305.4883};
+				angles[]={0.0080009829,5.6377687,6.260788};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4927;
+			type="Shed";
+			atlOffset=3.0517578e-005;
+		};
+		class Item126
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8851.2021,266.26196,5306.2852};
+				angles[]={0.0080009829,4.9345689,6.260788};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4932;
+			type="Land_MapBoard_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="mep\convoy map1.jpg";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item127
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8852.334,266.22314,5307.9609};
+				angles[]={0.0080009829,5.6553116,6.260788};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4933;
+			type="Land_MapBoard_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="mep\convoy pic1.jpg";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item128
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8851.6602,266.26599,5304.5171};
+				angles[]={0.0095994528,4.114994,6.259192};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4934;
+			type="Land_MapBoard_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="mep\bluballs-presentation-poster.jpg";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 	class Connections
