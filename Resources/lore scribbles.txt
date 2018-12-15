@@ -1,0 +1,5 @@
+start at mil base
+	recon civ airport
+	RP to get into the research compound
+	make scientists surrender
+	steal taru with weapons
