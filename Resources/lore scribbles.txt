@@ -1,3 +1,18 @@
+Situation
+===
+(CSAT?) FOB has been established near Rasman, bolstering their presence and allowing them to continue operations in the area with fewer supply issues.
+Takistani supply routes are progressively being cut off by the strengthened (CSAT?) presence.
+The Takistani armed forces want that FOB gone and have sent in a convoy to cripple it.
+Wiping out the FOB should cause significant chaos for (CSAT?) groups operating within it's influence, allowing Takistani forces to move in and re-establish supply with the North. 
+
+The convoy has faced troubles on its route; multiple vehicle failures and small ambushes thinning them out slowly.
+Only a portion of the original convoy remain and, while within firing range, needs a safe place to set up and rearm first.
+The Takistanis have begun contacting various militia along the route to assist in escorting the remainder of the convoy.
+
+This is where you come in.
+Your group is located along the last leg of the route between Feruz Abad and Garmsar.
+The convoy will be passing through soon and will be stopping at a nearby FARP just east of Rasman where it will rearm and assault the FOB.
+
 start at mil base
 	recon civ airport
 	RP to get into the research compound
