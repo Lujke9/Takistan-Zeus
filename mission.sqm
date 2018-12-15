@@ -8,15 +8,15 @@ class EditorData
 	toggles=521;
 	class ItemIDProvider
 	{
-		nextID=4990;
+		nextID=5066;
 	};
 	class MarkerIDProvider
 	{
-		nextID=7;
+		nextID=31;
 	};
 	class LayerIndexProvider
 	{
-		nextID=538;
+		nextID=588;
 	};
 	class Camera
 	{
@@ -306,7 +306,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=145;
+		items=166;
 		class Item0
 		{
 			dataType="Marker";
@@ -3038,6 +3038,7 @@ class Mission
 					};
 					id=4920;
 					type="CUP_I_TK_GUE_Soldier_AA";
+					atlOffset=3.0517578e-005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -3086,6 +3087,7 @@ class Mission
 			{
 			};
 			id=4919;
+			atlOffset=3.0517578e-005;
 		};
 		class Item123
 		{
@@ -3828,6 +3830,232 @@ class Mission
 				};
 				nAttributes=5;
 			};
+		};
+		class Item145
+		{
+			dataType="Marker";
+			position[]={1591.516,231.59801,5702.604};
+			name="marker_8";
+			type="mil_start";
+			colorName="ColorGreen";
+			id=5043;
+			atlOffset=3.0517578e-005;
+		};
+		class Item146
+		{
+			dataType="Marker";
+			position[]={9289.6543,164.23801,10062.864};
+			name="marker_9";
+			type="mil_end";
+			colorName="ColorGreen";
+			id=5044;
+			atlOffset=-0.00015258789;
+		};
+		class Item147
+		{
+			dataType="Marker";
+			position[]={2201.6211,210.38,5459.354};
+			name="marker_10";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=117.18097;
+			id=5045;
+			atlOffset=0.00028991699;
+		};
+		class Item148
+		{
+			dataType="Marker";
+			position[]={2802.6428,187.52832,5264.5166};
+			name="marker_11";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=50.54406;
+			id=5046;
+			atlOffset=-0.22167969;
+		};
+		class Item149
+		{
+			dataType="Marker";
+			position[]={3696.4678,171.02432,5632.0132};
+			name="marker_12";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=76.516937;
+			id=5047;
+		};
+		class Item150
+		{
+			dataType="Marker";
+			position[]={4614.2744,159.76941,5785.6699};
+			name="marker_13";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=78.586601;
+			id=5048;
+			atlOffset=1.5258789e-005;
+		};
+		class Item151
+		{
+			dataType="Marker";
+			position[]={5191.2783,144.83279,6131.8374};
+			name="marker_14";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=61.9576;
+			id=5049;
+		};
+		class Item152
+		{
+			dataType="Marker";
+			position[]={5787.9609,141.46745,6646.0151};
+			name="marker_15";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=53.746044;
+			id=5050;
+		};
+		class Item153
+		{
+			dataType="Marker";
+			position[]={5963.8867,116.04346,7603.9185};
+			name="marker_17";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=3.231194;
+			id=5052;
+		};
+		class Item154
+		{
+			dataType="Marker";
+			position[]={5773.8916,97.180664,8328.4727};
+			name="marker_19";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=333.43497;
+			id=5054;
+			atlOffset=-4.8021698;
+		};
+		class Item155
+		{
+			dataType="Marker";
+			position[]={5569.5303,81.901253,8928.6846};
+			name="marker_20";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=74.394058;
+			id=5055;
+		};
+		class Item156
+		{
+			dataType="Marker";
+			position[]={6348.6694,105.05081,8968.8096};
+			name="marker_21";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=89.185188;
+			id=5056;
+		};
+		class Item157
+		{
+			dataType="Marker";
+			position[]={7227.4072,134.04309,8660.0703};
+			name="marker_22";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=135.23004;
+			id=5057;
+		};
+		class Item158
+		{
+			dataType="Marker";
+			position[]={7653.4053,148.49512,8103.6289};
+			name="marker_23";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=124.14342;
+			id=5058;
+			atlOffset=-0.0014343262;
+		};
+		class Item159
+		{
+			dataType="Marker";
+			position[]={9153.9785,174.078,7813.9609};
+			name="marker_24";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorEAST";
+			alpha=0.75005651;
+			fillName="FDiagonal";
+			a=1294.707;
+			b=631.02502;
+			id=5059;
+			atlOffset=-197.23801;
+		};
+		class Item160
+		{
+			dataType="Marker";
+			position[]={9163.8789,281.00714,8504.9395};
+			name="marker_25";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=41.877911;
+			id=5060;
+			atlOffset=-0.13494873;
+		};
+		class Item161
+		{
+			dataType="Marker";
+			position[]={9302.5654,215.08203,9000.3027};
+			name="marker_26";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=16.269199;
+			id=5061;
+			atlOffset=-0.034698486;
+		};
+		class Item162
+		{
+			dataType="Marker";
+			position[]={9147.6729,179.88342,9553.6289};
+			name="marker_27";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=0.73528486;
+			id=5062;
+			atlOffset=-1.5258789e-005;
+		};
+		class Item163
+		{
+			dataType="Marker";
+			position[]={8252.9727,178.431,7790.3491};
+			name="marker_28";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=46.307999;
+			id=5063;
+			atlOffset=0.13345337;
+		};
+		class Item164
+		{
+			dataType="Marker";
+			position[]={8519.6104,250.08228,8244.3574};
+			name="marker_29";
+			type="mil_arrow";
+			colorName="ColorGreen";
+			angle=60.305897;
+			id=5064;
+			atlOffset=6.1035156e-005;
+		};
+		class Item165
+		{
+			dataType="Marker";
+			position[]={8862.4121,359.57617,7815.6494};
+			name="marker_30";
+			text="Unknown enemy presence";
+			type="mil_unknown";
+			colorName="ColorEAST";
+			id=5065;
+			atlOffset=12.864136;
 		};
 	};
 	class Connections
