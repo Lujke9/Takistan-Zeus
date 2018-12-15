@@ -13,6 +13,15 @@ This is where you come in.
 Your group is located along the last leg of the route between Feruz Abad and Garmsar.
 The convoy will be passing through soon and will be stopping at a nearby FARP just east of Rasman where it will rearm and assault the FOB.
 
+Intelligence
+===
+Some intelligence has been shared with you regarding the route and what to expect.
+
+## The Route
+Remote sensing data and imagery along the route was gathered at 1100hrs and is displayed on the whiteboard.
+- Minefields detected by MAD during satellite pass
+- Imagery distorted along portion of the route (possible enemy counter-intelligence attempt, scope out before convoy arrives)
+
 start at mil base
 	recon civ airport
 	RP to get into the research compound
