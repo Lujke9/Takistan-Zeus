@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=3228;
+		nextID=3439;
 	};
 	class Camera
 	{
-		pos[]={8083.9873,343.4913,1972.5308};
-		dir[]={-0.69811314,-0.58102727,0.41867778};
-		up[]={-0.49839213,0.81371945,0.29890433};
-		aside[]={0.51438898,3.5981648e-006,0.8577075};
+		pos[]={8914.8965,321.4556,5191.4761};
+		dir[]={-0.48650846,-0.45353085,0.74674743};
+		up[]={-0.24757178,0.89123875,0.38000065};
+		aside[]={0.83787155,-2.8382055e-007,0.5458762};
 	};
 };
 binarizationWanted=0;
@@ -13845,7 +13845,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8014.9175,297.13708,2000.3345};
-				angles[]={-0,0.040563982,0};
+				angles[]={0,0.040563982,0};
 			};
 			side="Empty";
 			flags=4;
@@ -13862,7 +13862,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8015.4287,297.13708,1999.5597};
-				angles[]={-0,5.9700909,0};
+				angles[]={0,5.9700909,0};
 			};
 			side="Empty";
 			flags=4;
@@ -38312,7 +38312,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8073.2627,297.77197,1989.249};
-				angles[]={-0,2.2401659,0};
+				angles[]={0,2.2401659,0};
 			};
 			side="Empty";
 			flags=4;
@@ -39021,7 +39021,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8015.5005,297.13708,1998.2731};
-				angles[]={-0,5.3978667,0};
+				angles[]={0,5.3978667,0};
 			};
 			side="Empty";
 			flags=4;
@@ -39038,7 +39038,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8015.0449,297.13708,1999.0211};
-				angles[]={-0,5.5516481,0};
+				angles[]={0,5.5516481,0};
 			};
 			side="Empty";
 			flags=4;
@@ -39055,7 +39055,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8014.5151,297.13708,1999.8242};
-				angles[]={-0,5.4706473,0};
+				angles[]={0,5.4706473,0};
 			};
 			side="Empty";
 			flags=4;
@@ -39072,7 +39072,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8016.0483,297.13708,1996.875};
-				angles[]={-0,5.5516481,0};
+				angles[]={0,5.5516481,0};
 			};
 			side="Empty";
 			flags=4;
@@ -39089,7 +39089,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8016.7412,297.13708,1996.1139};
-				angles[]={-0,5.3978667,0};
+				angles[]={0,5.3978667,0};
 			};
 			side="Empty";
 			flags=4;
@@ -39122,7 +39122,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8016.417,297.13708,1997.6803};
-				angles[]={-0,5.9700909,0};
+				angles[]={0,5.9700909,0};
 			};
 			side="Empty";
 			flags=4;
@@ -39139,7 +39139,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8015.7974,297.13708,1997.5842};
-				angles[]={-0,5.4706473,0};
+				angles[]={0,5.4706473,0};
 			};
 			side="Empty";
 			flags=4;
@@ -39239,11 +39239,11 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=4;
+			nextID=16;
 		};
 		class Links
 		{
-			items=4;
+			items=16;
 			class Item0
 			{
 				linkID=0;
@@ -39279,6 +39279,126 @@ class Mission
 				linkID=3;
 				item0=13962;
 				item1=13956;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item4
+			{
+				linkID=4;
+				item0=14020;
+				item1=4989;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item5
+			{
+				linkID=5;
+				item0=14021;
+				item1=4989;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item6
+			{
+				linkID=6;
+				item0=14022;
+				item1=4989;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item7
+			{
+				linkID=7;
+				item0=14023;
+				item1=4989;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item8
+			{
+				linkID=8;
+				item0=14025;
+				item1=4989;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item9
+			{
+				linkID=9;
+				item0=14026;
+				item1=4989;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item10
+			{
+				linkID=10;
+				item0=14027;
+				item1=4989;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item11
+			{
+				linkID=11;
+				item0=14028;
+				item1=4989;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item12
+			{
+				linkID=12;
+				item0=14030;
+				item1=4989;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item13
+			{
+				linkID=13;
+				item0=14031;
+				item1=4989;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item14
+			{
+				linkID=14;
+				item0=14032;
+				item1=4989;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item15
+			{
+				linkID=15;
+				item0=14033;
+				item1=4989;
 				class CustomData
 				{
 					type="Sync";
