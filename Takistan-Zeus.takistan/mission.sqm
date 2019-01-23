@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=3861;
+		nextID=4072;
 	};
 	class Camera
 	{
@@ -144,14 +144,13 @@ addons[]=
 	"ace_explosives",
 	"A3_Structures_F_Civ_Constructions",
 	"A3_Structures_F_Ind_DieselPowerPlant",
-	"A3_Supplies_F_Heli_Fuel",
-	"ADFU_Units_AMC"
+	"A3_Supplies_F_Heli_Fuel"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=60;
+		items=59;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -532,12 +531,6 @@ class AddonsMetaData
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item59
-		{
-			className="ADFU_Units_AMC";
-			name="ADFU_Units_AMC";
-			author="ADFU";
-		};
 	};
 };
 randomSeed=2635248;
@@ -649,7 +642,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=545;
+		items=544;
 		class Item0
 		{
 			dataType="Marker";
@@ -23617,7 +23610,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8860.0879,265.89438,5296.3105};
-						angles[]={-0,0,6.282495};
+						angles[]={0,0,6.282495};
 					};
 					side="Independent";
 					flags=6;
@@ -23637,7 +23630,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8860.2637,265.90488,5294.7026};
-						angles[]={-0,0,6.282495};
+						angles[]={0,0,6.282495};
 					};
 					side="Independent";
 					flags=4;
@@ -23657,7 +23650,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8860.2979,265.89676,5295.4497};
-						angles[]={-0,0,6.282495};
+						angles[]={0,0,6.282495};
 					};
 					side="Independent";
 					flags=4;
@@ -23677,7 +23670,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8859.4229,265.93002,5294.606};
-						angles[]={-0,0,6.282495};
+						angles[]={0,0,6.282495};
 					};
 					side="Independent";
 					flags=4;
@@ -23846,7 +23839,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8858.6816,265.94055,5295.7344};
-						angles[]={-0,0,6.282495};
+						angles[]={0,0,6.282495};
 					};
 					side="Independent";
 					flags=4;
@@ -38292,35 +38285,6 @@ class Mission
 		};
 		class Item534
 		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={8030.1685,296.04144,1989.7716};
-						angles[]={0,1.5086635,0};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-					};
-					id=16697;
-					type="ADFU_AMC_Heavy_Bearer";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=16696;
-		};
-		class Item535
-		{
 			dataType="Object";
 			class PositionInfo
 			{
@@ -39028,7 +38992,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item536
+		class Item535
 		{
 			dataType="Object";
 			class PositionInfo
@@ -39045,7 +39009,7 @@ class Mission
 			id=16699;
 			type="I_static_AT_F";
 		};
-		class Item537
+		class Item536
 		{
 			dataType="Object";
 			class PositionInfo
@@ -39062,7 +39026,7 @@ class Mission
 			id=16700;
 			type="I_static_AT_F";
 		};
-		class Item538
+		class Item537
 		{
 			dataType="Object";
 			class PositionInfo
@@ -39079,7 +39043,7 @@ class Mission
 			id=16701;
 			type="I_static_AT_F";
 		};
-		class Item539
+		class Item538
 		{
 			dataType="Object";
 			class PositionInfo
@@ -39096,7 +39060,7 @@ class Mission
 			id=16702;
 			type="I_static_AT_F";
 		};
-		class Item540
+		class Item539
 		{
 			dataType="Object";
 			class PositionInfo
@@ -39113,7 +39077,7 @@ class Mission
 			id=16703;
 			type="I_static_AT_F";
 		};
-		class Item541
+		class Item540
 		{
 			dataType="Object";
 			class PositionInfo
@@ -39129,7 +39093,7 @@ class Mission
 			id=16704;
 			type="I_static_AT_F";
 		};
-		class Item542
+		class Item541
 		{
 			dataType="Object";
 			class PositionInfo
@@ -39146,7 +39110,7 @@ class Mission
 			id=16705;
 			type="I_static_AT_F";
 		};
-		class Item543
+		class Item542
 		{
 			dataType="Object";
 			class PositionInfo
@@ -39163,7 +39127,7 @@ class Mission
 			id=16707;
 			type="I_static_AT_F";
 		};
-		class Item544
+		class Item543
 		{
 			dataType="Object";
 			class PositionInfo

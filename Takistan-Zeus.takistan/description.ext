@@ -1,0 +1,11 @@
+//-------------------------------------------RESPAWN SETTINGS----------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+respawn = "Base";
+respawnTemplatesWest[] = {"MenuPosition","MenuInventory"}; //// Respawn for Blufor
+respawnTemplatesEast[] = {"MenuPosition","MenuInventory"}; //// Respawn for Opfor
+respawnTemplatesGuer[] = {"MenuPosition","MenuInventory"}; //// Respawn for Independent
+respawndelay = 5;
+respawnVehicleDelay = 30;
+disabledAI = 1;
+joinUnassigned = 1;
+aiKills = 1;
